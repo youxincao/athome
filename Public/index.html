@@ -1,13 +1,13 @@
-<?php if (!defined('THINK_PATH')) exit();?>
+
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
 	<title>登录</title>
-	<script type="text/javascript" charset="UTF-8" src="/athome/Public/js/prefixfree.min.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="__PUBLIC__/js/prefixfree.min.js"></script>
 <style type="text/css">
 body {
-   background: url(/athome/Public/img/bg.png);
+   background: url(__PUBLIC__/img/bg.png);
    background-size: 100% 100%;
    margin:0;
    padding:0;}
@@ -34,7 +34,7 @@ body {
     height:102px;
     padding:2px;
     border:1px solid rgb(216,216,219);
-    background:#fff url("/athome/Public/img/profilepicture.jpg") no-repeat 2px 2px;
+    background:#fff url("__PUBLIC__/img/profilepicture.jpg") no-repeat 2px 2px;
 }
 .not-registered {
     position:absolute;
@@ -177,11 +177,11 @@ body {
 }
 @font-face {
   font-family: 'loginform-icon';
-  src: url("/athome/Public/font/loginform-icon.eot");
-  src: url("/athome/Public/font/loginform-icon.eot?#iefix") format('embedded-opentype'),
-       url("/athome/Public/font/loginform-icon.woff") format('woff'),
-       url("/athome/Public/font/loginform-icon.ttf") format('truetype'),
-       url("/athome/Public/font/loginform-icon.svg#loginform-icon") format('svg');
+  src: url("font/loginform-icon.eot");
+  src: url("font/loginform-icon.eot?#iefix") format('embedded-opentype'),
+       url("font/loginform-icon.woff") format('woff'),
+       url("font/loginform-icon.ttf") format('truetype'),
+       url("font/loginform-icon.svg#loginform-icon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -190,9 +190,9 @@ body {
 <body>
 
 	   <div class="content">
-           <form  action="/athome/admin.php/Home/Login/signin  " method="post" class="login-form">
+           <form action="" method="post" class="login-form">
                <div class="username">
-                   <input type="text" name="name" placeholder="emma.watson@gmail.com" autocomplete="on" />
+                   <input type="text" name="username" placeholder="emma.watson@gmail.com" autocomplete="on" />
                    <span class="user-icon icon">u</span>
                </div>
                <div class="password">
@@ -205,6 +205,7 @@ body {
                    <label for="Remember me" class="info">Remember me</label>
                    <button type="submit">Login</button>
                </div>
+               <p class="not-registered">Not a registered user yet?<a>Sign up now!</a></p>
            </form>
 	   </div>
 <div style="text-align:center;clear:both">

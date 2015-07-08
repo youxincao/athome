@@ -190,9 +190,9 @@ body {
 <body>
 
 	   <div class="content">
-           <form  action="/athome/admin.php/Home/Login/signin  " method="post" class="login-form">
+           <form action="" method="post" class="login-form">
                <div class="username">
-                   <input type="text" name="name" placeholder="emma.watson@gmail.com" autocomplete="on" />
+                   <input type="text" name="username" placeholder="emma.watson@gmail.com" autocomplete="on" />
                    <span class="user-icon icon">u</span>
                </div>
                <div class="password">
@@ -205,6 +205,7 @@ body {
                    <label for="Remember me" class="info">Remember me</label>
                    <button type="submit">Login</button>
                </div>
+               <p class="not-registered">Not a registered user yet?<a>Sign up now!</a></p>
            </form>
 	   </div>
 <div style="text-align:center;clear:both">
