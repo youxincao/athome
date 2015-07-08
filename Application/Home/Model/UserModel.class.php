@@ -5,4 +5,3 @@
 	class UserModel extends Model{
 		
 	}
-?>
