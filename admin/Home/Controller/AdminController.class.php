@@ -5,6 +5,8 @@ class AdminController extends BaseController {
 
 	public function admin(){
 		$this->assign("device_list", M('device')->select());
+		$this->assign("gps_infos", M('location')->select());
+		$this->assign("alarm_infos",M('alarmrecord')->select());
 		$this->display();
 	}
 

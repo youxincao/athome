@@ -3688,3 +3688,610 @@ SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0040s ]
 SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0010s ]
 NOTIC: [8] Undefined variable: gps_info E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
 
+[ 2015-07-09T20:45:48+08:00 ] ::1 /athome/admin.php/Home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003235s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\athome\admin\Home\Controller\LoginController.class.php on line 8 and defined C:\wamp\www\athome\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\athome\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003403s ]
+
+[ 2015-07-09T20:45:49+08:00 ] ::1 /athome/admin.php/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+
+[ 2015-07-09T20:45:52+08:00 ] ::1 /athome/admin.php/Home/Login/signin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000372s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002538s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `db_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-09T20:45:53+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003970s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Undefined variable: gps_infos C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005676s ]
+
+[ 2015-07-09T20:50:28+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:29+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:30+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:31+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:32+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:32+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:32+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:32+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:32+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:32+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002726s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:33+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003077s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:50:33+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:53:29+08:00 ] ::1 /athome/admin.php/Home/Admin/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `db_location` WHERE `sn` = '111111'  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: gps_info C:\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 44 行.
+
+[ 2015-07-09T20:53:49+08:00 ] ::1 /athome/admin.php/Home/Admin/add_device
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `db_device` WHERE `sn` = '1123213213213213'  [ RunTime:0.0009s ]
+SQL: INSERT INTO `db_device` (`sn`,`recodetime`) VALUES ('1123213213213213','1436446429') [ RunTime:0.0010s ]
+
+[ 2015-07-09T20:53:52+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] Undefined variable: gps_infos C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003926s ]
+
+[ 2015-07-09T20:55:10+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002800s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000598s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004678s ]
+
+[ 2015-07-09T20:56:54+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004769s ]
+NOTIC: [8] Undefined index: uid C:\wamp\www\athome\admin\Home\Controller\BaseController.class.php 第 9 行.
+
+[ 2015-07-09T20:56:54+08:00 ] ::1 /athome/admin.php/home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003726s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\athome\admin\Home\Controller\LoginController.class.php on line 8 and defined C:\wamp\www\athome\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\athome\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005819s ]
+
+[ 2015-07-09T20:56:55+08:00 ] ::1 /athome/admin.php/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+
+[ 2015-07-09T20:56:58+08:00 ] ::1 /athome/admin.php/Home/Login/signin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008236s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `db_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-09T20:56:58+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005875s ]
+
+[ 2015-07-09T21:03:53+08:00 ] ::1 /athome/admin.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\athome\admin\Home\Controller\LoginController.class.php on line 8 and defined C:\wamp\www\athome\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\athome\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000773s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003066s ]
+
+[ 2015-07-09T21:03:53+08:00 ] ::1 /athome/admin.php/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001945s ]
+
+[ 2015-07-09T21:03:54+08:00 ] ::1 /athome/admin.php/Home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+
+[ 2015-07-09T21:04:07+08:00 ] ::1 /athome/admin.php/Home/Login/signin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003805s ]
+SQL: SHOW COLUMNS FROM `db_admin` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `db_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2015-07-09T21:04:07+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003895s ]
+
+[ 2015-07-09T21:04:19+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002781s ]
+
+[ 2015-07-09T21:04:45+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+NOTIC: [8] Undefined index: recordtime C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 230 行.
+NOTIC: [8] Undefined index: latitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 231 行.
+NOTIC: [8] Undefined index: longitude C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 232 行.
+NOTIC: [8] Undefined index: precision C:\wamp\www\athome\admin\Runtime\Cache\Home\f0fee88bc0c311f52de0728f3f7df9d0.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002778s ]
+
+[ 2015-07-09T21:06:24+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003075s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002836s ]
+
+[ 2015-07-09T21:07:35+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+
+[ 2015-07-09T21:08:04+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `db_alarmrecord` [ RunTime:0.0234s ]
+ERR: Think\Model:seelct方法不存在！
+
+[ 2015-07-09T21:08:19+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003023s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `db_alarmrecord` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `db_alarmrecord`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `db_alarmrecord`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004688s ]
+
+[ 2015-07-09T21:16:06+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003516s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_location` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `db_location`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `db_alarmrecord` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `db_alarmrecord`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `db_alarmrecord`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000469s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003132s ]
+

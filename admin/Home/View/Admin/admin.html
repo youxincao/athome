@@ -49,6 +49,7 @@
                 alert("该设备不存在");
                 return ;
             }
+            $('#gps_info_table').html();
         }  
 
         function checkFormAdd(){
@@ -216,6 +217,7 @@ table {
         <input id="gps_device_sn" type="text" name="device_sn" autocomplete="on" /> 
         <button type="submit">查询</button>
      </form>
+    <br>
     <table id="gps_info_table" class="bordered">
         <thead>
         <tr>       
@@ -228,11 +230,11 @@ table {
         </thead>
         <volist name="gps_infos" id="gps">
         <tr>
-            <td>{$device['sn']}</td>        
-            <td>{$device['recordtime']}</td>
-            <td>{$device['latitude']}</td>
-            <td>{$device['longitude']}</td>
-            <td>{$device['precision']}</td>
+            <td>{$gps['sn']}</td>        
+            <td>{$gps['recordtime']}</td>
+            <td>{$gps['latitude']}</td>
+            <td>{$gps['longitude']}</td>
+            <td>{$gps['precision']}</td>
         </tr>        
         </volist>
     </table>
@@ -246,6 +248,23 @@ table {
         <input id="alarm_device_sn" type="text" name="device_sn" autocomplete="on" /> 
         <button type="submit">查询</button>
      </form>
+     <br>
+     <table id="alarm_info_table" class="bordered">
+        <thead>
+        <tr>       
+            <th>序列号</th>
+            <th>时间</th>
+            <th>预警码</th>
+        </tr>
+        </thead>
+        <volist name="alarm_infos" id="alarm">
+        <tr>
+            <td>{$alarm['sn']}</td>        
+            <td>{$alarm['time']}</td>
+            <td>{$alarm['type']}</td>
+        </tr>        
+        </volist>
+    </table>
   </div>
 
   <div>

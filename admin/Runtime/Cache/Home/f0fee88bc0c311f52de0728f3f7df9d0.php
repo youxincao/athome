@@ -49,6 +49,7 @@
                 alert("该设备不存在");
                 return ;
             }
+            $('#gps_info_table').html();
         }  
 
         function checkFormAdd(){
@@ -214,6 +215,7 @@ table {
         <input id="gps_device_sn" type="text" name="device_sn" autocomplete="on" /> 
         <button type="submit">查询</button>
      </form>
+    <br>
     <table id="gps_info_table" class="bordered">
         <thead>
         <tr>       
@@ -225,11 +227,11 @@ table {
         </tr>
         </thead>
         <?php if(is_array($gps_infos)): $i = 0; $__LIST__ = $gps_infos;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$gps): $mod = ($i % 2 );++$i;?><tr>
-            <td><?php echo ($device['sn']); ?></td>        
-            <td><?php echo ($device['recordtime']); ?></td>
-            <td><?php echo ($device['latitude']); ?></td>
-            <td><?php echo ($device['longitude']); ?></td>
-            <td><?php echo ($device['precision']); ?></td>
+            <td><?php echo ($gps['sn']); ?></td>        
+            <td><?php echo ($gps['recordtime']); ?></td>
+            <td><?php echo ($gps['latitude']); ?></td>
+            <td><?php echo ($gps['longitude']); ?></td>
+            <td><?php echo ($gps['precision']); ?></td>
         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
     </table>
 
@@ -242,6 +244,21 @@ table {
         <input id="alarm_device_sn" type="text" name="device_sn" autocomplete="on" /> 
         <button type="submit">查询</button>
      </form>
+     <br>
+     <table id="alarm_info_table" class="bordered">
+        <thead>
+        <tr>       
+            <th>序列号</th>
+            <th>时间</th>
+            <th>预警码</th>
+        </tr>
+        </thead>
+        <?php if(is_array($alarm_infos)): $i = 0; $__LIST__ = $alarm_infos;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$alarm): $mod = ($i % 2 );++$i;?><tr>
+            <td><?php echo ($alarm['sn']); ?></td>        
+            <td><?php echo ($alarm['time']); ?></td>
+            <td><?php echo ($alarm['type']); ?></td>
+        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+    </table>
   </div>
 
   <div>
