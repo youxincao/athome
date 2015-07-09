@@ -15,6 +15,12 @@
             dataType: 'json'
         });
 
+        $('#add_device_form').ajaxForm({
+            beforeSubmit: checkFormAdd,
+            success:  completeAdd,
+            dataType: 'json'
+        });
+        
         function checkForm(){
             if('' == $.trim($('#gps_device_sn').val())){
                 alert("设备号不能为空");
@@ -27,8 +33,24 @@
                 alert("该设备不存在");
                 return ;
             }
+        }  
+
+        function checkFormAdd(){
+            if('' == $.trim($('#add_device_sn').val())){
+                alert("设备号不能为空");
+                return false;
+            }
         }
-        
+
+        function completeAdd(data){
+            if( ! data.status ){
+                alert("添加失败");
+                return ;
+            }else {
+                alert("添加成功");
+                return;
+            }
+        }     
     });     
 </script>
 
@@ -192,8 +214,8 @@ table {
 </table>
 
     <h3 >添加设备</h3>
-    <form action="__URL__/add_device" method="post">
-        <input type="text" name="device_sn" autocomplete="on" /> 
+    <form id="add_device_form" action="__URL__/add_device" method="post">
+        <input id="add_device_sn" type="text" name="device_sn" autocomplete="on" /> 
         <button type="submit">添加</button>
     </form>
 

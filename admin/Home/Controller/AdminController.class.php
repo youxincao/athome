@@ -8,24 +8,31 @@ class AdminController extends BaseController {
 	}
 
 	public function add_device(){
-		$device_sn = I('device_sn');
 
+		if(!IS_AJAX ) E("页面不存在");
+
+		$device_sn = I('device_sn');
 		$data = array(
 				'sn' => $device_sn , 
 			);
 
-		$res = M('device')->add($data);
-
-		if( $res ) {
-			$this->success("设备添加成功");
+		// 如果设备已经存在
+		$device = M('device');
+		if($device->where($data)->select() ){
+			$this->ajaxReturn(array('status' => 0 ), 'json');
 		}else {
-			$this->success("设备添加失败");
-		}
+			$res =$device->add($data);
+				if( $res ) {
+					$this->ajaxReturn(array('status' => 1 ), 'json');
+				}else {
+					$this->ajaxReturn(array('status' => 0 ), 'json');
+				}
+			}	
 	}
 
 
 	public function gps_info(){
-		if( !IS_AJAX ) halt("页面不存在");
+		if(!IS_AJAX ) E("页面不存在");
 		$device_sn = I("device_sn");
 
 		$condition['sn'] = $device_sn;
