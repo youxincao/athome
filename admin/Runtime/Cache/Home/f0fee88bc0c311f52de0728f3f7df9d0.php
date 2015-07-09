@@ -31,6 +31,11 @@
             success: completeAddAlarm ,
             dataType: 'json'
         });
+
+        $('#add_gps_form').ajaxForm({
+            success: completeAddGPS ,
+            dataType: 'json'
+        });
         
         function checkForm(){
             if('' == $.trim($('#gps_device_sn').val())){
@@ -79,7 +84,11 @@
 
         function completeAddAlarm(data) {
             alert(data.info);
-        }    
+        }  
+
+        function completeAddGPS(data) {
+            alert(data.info);
+        }  
     });     
 </script>
 
@@ -176,20 +185,20 @@ table {
     <h2 class="title">设备管理</h2>
     <h3 >设备列表</h3>
     <table class="bordered">
-    <thead>
-    <tr>
-        <th>id</th>        
-        <th>sn</th>
-        <th>time</th>
-    </tr>
-    </thead>
+        <thead>
+        <tr>
+            <th>id</th>        
+            <th>sn</th>
+            <th>time</th>
+        </tr>
+        </thead>
 
-    <?php if(is_array($device_list)): $i = 0; $__LIST__ = $device_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$device): $mod = ($i % 2 );++$i;?><tr>
-        <td><?php echo ($device['id']); ?></td>        
-        <td><?php echo ($device['sn']); ?></td>
-        <td><?php echo ($device['recodetime']); ?></td>
-    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-</table>
+        <?php if(is_array($device_list)): $i = 0; $__LIST__ = $device_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$device): $mod = ($i % 2 );++$i;?><tr>
+            <td><?php echo ($device['id']); ?></td>        
+            <td><?php echo ($device['sn']); ?></td>
+            <td><?php echo ($device['recodetime']); ?></td>
+        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+    </table>
 
     <h3 >添加设备</h3>
     <form id="add_device_form" action="/athome/admin.php/Home/Admin/add_device" method="post">
@@ -205,6 +214,25 @@ table {
         <input id="gps_device_sn" type="text" name="device_sn" autocomplete="on" /> 
         <button type="submit">查询</button>
      </form>
+    <table id="gps_info_table" class="bordered">
+        <thead>
+        <tr>       
+            <th>序列号</th>
+            <th>时间</th>
+            <th>经度</th>
+            <th>纬度</th>
+            <th>精度</th>
+        </tr>
+        </thead>
+        <?php if(is_array($gps_infos)): $i = 0; $__LIST__ = $gps_infos;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$gps): $mod = ($i % 2 );++$i;?><tr>
+            <td><?php echo ($device['sn']); ?></td>        
+            <td><?php echo ($device['recordtime']); ?></td>
+            <td><?php echo ($device['latitude']); ?></td>
+            <td><?php echo ($device['longitude']); ?></td>
+            <td><?php echo ($device['precision']); ?></td>
+        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+    </table>
+
   </div>
 
   <div>

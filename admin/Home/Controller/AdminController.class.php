@@ -41,6 +41,7 @@ class AdminController extends BaseController {
 		if($gps_infos){
 			$data['status'] = 1;
 			$data['gps_info'] = $gps_infos;
+			$this->assign("gps_infos", $gps_info);
 			$data['time'] = date('y-m-d H:i', time());
 			$this->ajaxReturn($data, 'json');
 		}else{
@@ -65,6 +66,38 @@ class AdminController extends BaseController {
 	}
 
 	public function add_gps(){
+
+		if(!IS_AJAX ) E("页面不存在");
+
+		$sn = I('sn');
+		$latitude = I('latitude');
+		$longgtude = I('longgtude');
+		$precision = I('precision');
+		$time = time();
+
+		// 设备号不存在
+		if(!M('device')->where(array( sn => $sn))->select()){
+			$res['status'] = 0;
+			$res['info'] = "该设备不存在";
+			$this->ajaxReturn($res, 'json');
+			return ; 
+		}
+
+		$data['sn'] = $sn;
+		$data['latitude'] = $latitude;
+		$data['longgtude'] = $longgtude;
+		$data['precision'] = $precision;
+		$data['recordtime'] = $time;
+
+		if( M('location')->add($data) ) {
+			$res['status'] = 1;
+			$res['info'] = "GPS信息添加成功";
+			$this->ajaxReturn($res, 'json');
+		}else{
+			$res['status'] = 0;
+			$res['info'] = "GPS信息添加失败";
+			$this->ajaxReturn($res, 'json');
+		}
 
 	}
 
