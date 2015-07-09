@@ -11,11 +11,12 @@
     	public function signin(){
     	if (!IS_POST) halt('页面不存在');
 
+        p(I("post."));
     	$name = I('name');
     	$password = I('password');
 
     	$admin_user = M('admin')->where(array('name' =>$name))->find();
-
+        p($admin_user);
     	if(!$admin_user || $admin_user['password'] != md5($password))
     		$this->error('账号或者密码错误');
 
