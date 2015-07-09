@@ -20,6 +20,12 @@
             success:  completeAdd,
             dataType: 'json'
         });
+
+        $('#alarm_query_form').ajaxForm({
+            beforeSubmit: checkFormAlarm,
+            success:  completeAlarm,
+            dataType: 'json'
+        });
         
         function checkForm(){
             if('' == $.trim($('#gps_device_sn').val())){
@@ -49,6 +55,20 @@
             }else {
                 alert("添加成功");
                 return;
+            }
+        }  
+
+        function checkFormAlarm(){
+            if('' == $.trim($('#alarm_device_sn').val())){
+                alert("设备号不能为空");
+                return false;
+            }
+        }
+
+        function completeAlarm(data){
+            if( ! data.status ){
+                alert("该设备不存在");
+                return ;
             }
         }     
     });     
@@ -149,68 +169,17 @@ table {
     <table class="bordered">
     <thead>
     <tr>
-        <th>#</th>        
-        <th>IMDB Top 10 Movies</th>
-        <th>Year</th>
+        <th>id</th>        
+        <th>sn</th>
+        <th>time</th>
     </tr>
     </thead>
-    <tr>
-        <td>1</td>        
-        <td>The Shawshank Redemption</td>
 
-        <td>1994</td>
-    </tr>        
-    <tr>
-        <td>2</td>         
-        <td>The Godfather</td>
-        <td>1972</td>
-    </tr>
-    <tr>
-
-        <td>3</td>         
-        <td>The Godfather: Part II</td>
-        <td>1974</td>
-    </tr>    
-    <tr>
-        <td>4</td> 
-        <td>The Good, the Bad and the Ugly</td>
-        <td>1966</td>
-
-    </tr>
-    <tr>
-        <td>5</td> 
-        <td>Pulp Fiction</td>
-        <td>1994</td>
-    </tr>
-    <tr>
-        <td>6</td> 
-        <td>12 Angry Men</td>
-
-        <td>1957</td>
-    </tr>
-    <tr>
-        <td>7</td> 
-        <td>Schindler's List</td>
-        <td>1993</td>
-    </tr>    
-    <tr>
-
-        <td>8</td> 
-        <td>One Flew Over the Cuckoo's Nest</td>
-        <td>1975</td>
-    </tr>
-    <tr>
-        <td>9</td> 
-        <td>The Dark Knight</td>
-
-        <td>2008</td>
-    </tr>
-    <tr>
-        <td>10</td> 
-        <td>The Lord of the Rings: The Return of the King</td>
-        <td>2003</td>
-    </tr> 
-
+    <?php if(is_array($device_list)): $i = 0; $__LIST__ = $device_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$device): $mod = ($i % 2 );++$i;?><tr>
+        <td><?php echo ($device['id']); ?></td>        
+        <td><?php echo ($device['sn']); ?></td>
+        <td><?php echo ($device['recodetime']); ?></td>
+    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 </table>
 
     <h3 >添加设备</h3>
@@ -231,16 +200,47 @@ table {
 
   <div>
     <h2 class="title">报警信息</h2>
-      <form action="/athome/admin.php/Home/Admin/alarm_info" method="post" />
+      <form id="alarm_query_form" action="/athome/admin.php/Home/Admin/alarm_info" method="post" />
         <label>输入SN号： </label>
-        <input type="text" name="device_sn" autocomplete="on" /> 
+        <input id="alarm_device_sn" type="text" name="device_sn" autocomplete="on" /> 
         <button type="submit">查询</button>
      </form>
   </div>
 
   <div>
     <h2 class="title">测试界面</h2>
-  </div>
+    <h3>发送GPS信息</h3>
+        <form id="add_gps_form" action="/athome/admin.php/Home/Admin/add_gps" method="post" />
+            <label>输入SN号： </label>
+            <input id="add_gps_device_sn" type="text" name="sn" autocomplete="on" /> <br />
+            <label>输入经度： </label>
+            <input id="add_gps_lat" type="text" name="latitude" autocomplete="on" /> <br />
+            <label>输入纬度： </label>
+            <input id="add_gps_lon" type="text" name="longgtude" autocomplete="on" /> <br />
+            <label>输入精度： </label>
+            <input id="add_gps_pre" type="text" name="precision" autocomplete="on" /> <br />
+            <button type="submit">确定</button>
+        </form>
+    <h3>发送报警信息</h3>
+        <form id="add_alarm_form" action="/athome/admin.php/Home/Admin/add_alarm" method="post" />
+            <label>输入SN号： </label>
+            <input id="add_alarm_device_sn" type="text" name="sn" autocomplete="on" /> <br /> 
+            <label>输入错误码： </label>
+            <input id="add_alarm_code" type="text" name="precision" autocomplete="on" /> <br />
+            <button type="submit">确定</button>
+        </form>
+  </div
+    alarm <form id="add_gps_form" action="/athome/admin.php/Home/Admin/add_gps" method="post" />
+            <label>输入SN号： </label>
+            <input id="add_gps_device_sn" type="text" name="sn" autocomplete="on" /> <br />
+            <label>输入经度： </label>
+            <input id="add_gps_lat" type="text" name="latitude" autocomplete="on" /> <br />
+            <label>输入纬度： </label>
+            <input id="add_gps_lon" type="text" name="longgtude" autocomplete="on" /> <br />
+            <label>输入精度： </label>
+            <input id="add_gps_pre" type="text" name="precision" autocomplete="on" /> <br />
+            <button type="submit">确定</button>
+        </form>
 </div>
 <script src="/athome/Public/js/jquery.easing.1.3.js"></script>
 <script src="/athome/Public/js/jquery.touchSwipe.min.js"></script>
