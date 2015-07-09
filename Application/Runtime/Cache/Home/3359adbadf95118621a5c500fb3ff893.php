@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?>
 
 <FORM method="post" action="/athome/index.php/Home/User/signup">
-	  昵称 <INPUT type="text" name="title"><br/>
+	  昵称 <INPUT type="text" name="name"><br/>
 	  密码 <INPUT type="password" name="password"><br/>
     确认密码<INPUT type="password" name="confirm_password"><br/>
    	手机号<INPUT type="text" name="phone_number"><br/>
