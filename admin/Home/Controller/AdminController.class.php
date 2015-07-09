@@ -32,7 +32,6 @@ class AdminController extends BaseController {
 			}	
 	}
 
-
 	public function gps_info(){
 		if(!IS_AJAX ) E("页面不存在");
 		$device_sn = I("device_sn");
@@ -70,6 +69,39 @@ class AdminController extends BaseController {
 	}
 
 	public function add_alarm(){
+		if(!IS_AJAX ) E("页面不存在");
 
+		$sn = I('sn');
+		$alarm_code = I('alarm_code');
+		$time = time();
+
+		// 设备号不存在
+		if(!M('device')->where(array( sn => $sn))->select()){
+			$res['status'] = 0;
+			$res['info'] = "该设备不存在";
+			$this->ajaxReturn($res, 'json');
+			return ; 
+		}
+
+		// 状态码不存在
+		if( !M(alarmtype)->where(array(code => $alarm_code))->select()){
+			$res['status'] = 0;
+			$res['info'] = "该报警信息不存在";
+			$this->ajaxReturn($res, 'json');
+			return;
+		}
+
+		$data['sn'] = $sn;
+		$data['type'] = $alarm_code;
+		$data[time] = time();
+		if( M('alarmrecord')->add($data) ) {
+			$res['status'] = 1;
+			$res['info'] = "报警信息添加成功";
+			$this->ajaxReturn($res, 'json');
+		}else{
+			$res['status'] = 0;
+			$res['info'] = "报警信息添加失败";
+			$this->ajaxReturn($res, 'json');
+		}
 	}
 }

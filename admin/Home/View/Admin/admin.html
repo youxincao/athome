@@ -26,6 +26,11 @@
             success:  completeAlarm,
             dataType: 'json'
         });
+
+        $('#add_alarm_form').ajaxForm({
+            success: completeAddAlarm ,
+            dataType: 'json'
+        });
         
         function checkForm(){
             if('' == $.trim($('#gps_device_sn').val())){
@@ -70,7 +75,11 @@
                 alert("该设备不存在");
                 return ;
             }
-        }     
+        } 
+
+        function completeAddAlarm(data) {
+            alert(data.info);
+        }    
     });     
 </script>
 
@@ -228,7 +237,7 @@ table {
             <label>输入SN号： </label>
             <input id="add_alarm_device_sn" type="text" name="sn" autocomplete="on" /> <br /> 
             <label>输入错误码： </label>
-            <input id="add_alarm_code" type="text" name="precision" autocomplete="on" /> <br />
+            <input id="add_alarm_code" type="text" name="alarm_code" autocomplete="on" /> <br />
             <button type="submit">确定</button>
         </form>
   </div

@@ -2977,3 +2977,448 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2015-07-09T15:41:07+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:41:11+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:41:20+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:41:37+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-09T15:41:49+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:41:53+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:42:39+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-09T15:42:42+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-09T15:42:53+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:43:32+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:50:19+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-09T15:54:26+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-09T15:54:55+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 78 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = ''  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:55:38+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:55:44+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 78 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = ''  [ RunTime:0.0000s ]
+
+[ 2015-07-09T15:56:26+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T15:56:29+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 78 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = ''  [ RunTime:0.0000s ]
+
+[ 2015-07-09T15:56:50+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 78 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = '12333333333'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T16:00:12+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 79 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = '12333333333'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant alarmtype - assumed 'alarmtype' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `db_alarmtype` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SELECT * FROM `db_alarmtype` WHERE `code` = ''  [ RunTime:0.0010s ]
+
+[ 2015-07-09T16:00:29+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 79 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = '12333333333'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant alarmtype - assumed 'alarmtype' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `db_alarmtype` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SELECT * FROM `db_alarmtype` WHERE `code` = '101'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T16:04:28+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 79 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = '12333333333'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant alarmtype - assumed 'alarmtype' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `db_alarmtype` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SELECT * FROM `db_alarmtype` WHERE `code` = '101'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `db_alarmrecord` [ RunTime:0.0040s ]
+SQL: INSERT INTO `db_alarmrecord` (`sn`,`type`,`time`) VALUES ('12333333333','101','1436429068') [ RunTime:0.0030s ]
+
+[ 2015-07-09T16:04:32+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T16:04:47+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 79 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = '12333333333'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant alarmtype - assumed 'alarmtype' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `db_alarmtype` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SELECT * FROM `db_alarmtype` WHERE `code` = '101'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `db_alarmrecord` [ RunTime:0.0030s ]
+SQL: INSERT INTO `db_alarmrecord` (`sn`,`type`,`time`) VALUES ('12333333333','101','1436429087') [ RunTime:0.0030s ]
+
+[ 2015-07-09T16:05:31+08:00 ] ::1 /athome/admin.php/Home/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `db_device`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-09T16:05:47+08:00 ] ::1 /athome/admin.php/Home/Admin/add_alarm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant sn - assumed 'sn' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 79 行.
+SQL: SELECT * FROM `db_device` WHERE `sn` = '12333333333'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant alarmtype - assumed 'alarmtype' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `db_alarmtype` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 87 行.
+SQL: SELECT * FROM `db_alarmtype` WHERE `code` = '102'  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' E:\soft\wamp\www\athome\admin\Home\Controller\AdminController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `db_alarmrecord` [ RunTime:0.0040s ]
+SQL: INSERT INTO `db_alarmrecord` (`sn`,`type`,`time`) VALUES ('12333333333','102','1436429147') [ RunTime:0.0030s ]
+
