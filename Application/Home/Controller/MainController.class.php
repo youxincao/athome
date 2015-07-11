@@ -161,39 +161,39 @@ class MainController extends BaseController {
     	}
 	
 	public function gps_info(){
-	$code = I('code');
-        $state = I('state');
-	$bound  = false ;
+		$code = I('code');
+	        $state = I('state');
+		$bound  = false ;
 
-        if($state == 'weixin' && $code != '' ){
-            // 拉取微信用户的openid
-            $wechat = new Wechat();
-            $access_token = $wechat->get_access_token($code);
-            if( $access_token ) {
-                session('access_token', $access_token['access_token']);
-                session('refresh_token', $access_token['refresh_token']);
-                session('openid', $access_token['openid']);
+	        if($state == 'weixin' && $code != '' ){
+	            // 拉取微信用户的openid
+	            $wechat = new Wechat();
+	            $access_token = $wechat->get_access_token($code);
+	            if( $access_token ) {
+	                session('access_token', $access_token['access_token']);
+	                session('refresh_token', $access_token['refresh_token']);
+	                session('openid', $access_token['openid']);
 
-                // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
-                $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
-                if( $res ){
-		    $bound = true ;
-                    session('device_sn', $res[0]['device_sn']);
-                    $this->success("Already Bound Device", U('Main/bound_device'), 1);
-		    return ;
-                }
-            }
-        }
+	                // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
+	                $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
+	                if( $res ){
+			    $bound = true ;
+	                    session('device_sn', $res[0]['device_sn']);
+	                    $this->success("Already Bound Device", U('Main/list_gps_info'), 1);
+			    return ;
+	                }
+	            }
+	        }
 
-    	if(!$bound) 
-		$this->display("ask_bind_device");
+	    	if(!$bound) 
+			$this->display("ask_bind_device");
  	
 	}	
 
 	public function alarm_info(){
-	$code = I('code');
-        $state = I('state');
-	$bound  = false ;
+		$code = I('code');
+	    $state = I('state');
+		$bound  = false ;
 
         if($state == 'weixin' && $code != '' ){
             // 拉取微信用户的openid
@@ -209,7 +209,7 @@ class MainController extends BaseController {
                 if( $res ){
 		    $bound = true ;
                     session('device_sn', $res[0]['device_sn']);
-                    $this->success("Already Bound Device", U('Main/bound_device'), 1);
+                    $this->success("Already Bound Device", U('Main/list_alarm_info'), 1);
 		    return ;
                 }
             }
@@ -220,4 +220,23 @@ class MainController extends BaseController {
  	
 	}	
 
+	public function list_alarm_info(){
+        $device_sn = $_SESSION('device_sn');
+        $records = M('alarmrecord')->where(array("sn" => $device_sn))->select();
+        if( $records ){
+            $this->assign("共有".count($records)."条报警信息");
+            $this->assign("alarm_infos", $records);
+        }else{
+            $this->assign("绑定的设备没有报警信息");
+        }
+		this->display();
+	}
+
+	public function list_gps_info(){
+        $device_sn = $_SESSION('device_sn');
+		$this->display();
+	}
+
 }
+
+	
