@@ -7,11 +7,6 @@
         <meta name="description" content="Login" />
         <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
         <meta name="author" content="WeiLun" />
-	<!--
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />  
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>  
-	<script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>  
-	-->
 
 	<style type="text/css">
 		label.error{   
@@ -49,38 +44,24 @@
 
 	<script type="text/javascript">
         	$(function(){
-        	    $("#loginForm").validate();
-
-        	//     function complete(data){
-        	//     	alert(data);
-        	//     }
+        	    $("#bindForm").validate();
         	});
         </script>
  </head>
     <body>
       <div id="login">
-       <form  id ="loginForm" action="__URL__/signin" autocomplete="on" method="post" data-ajax="false">
+       <form  id ="bindForm" action="__URL__/bind_device" autocomplete="on" method="post" data-ajax="false">
 		<div data-role="header">
-              		<h1>Log in</h1> 
+              		<h1>绑定设备</h1> 
 	      	</div>
    	      	<div data-role="filedcontain">
-                  	<label for="username"><em>* </em>Your username </label>
-                  	<input id="username" name="name" class="required" type="text" placeholder="myusername"/>
-		</div>
+                  	<label for="device_sn"><em>* </em>device SN </label>
+                  	<input id="device_sn" name="device_sn" class="required" type="text" placeholder="device sn"/>
+			</div>
+   	      	
    	      	<div data-role="filedcontain">
-                  	<label for="password"><em>* </em>Your password</label>
-                  	<input id="password" name="password" class="required" type="password" placeholder="eg. X8df!90EO" /> 
-		</div>
-			<label>
-      	        		<input type="checkbox" name="loginkeeping">Keep Login</input> 
-			</label>
-   	      	<div data-role="filedcontain">
-                 	<input data-theme="a" type="submit" value="Login" /> 
-		</div>
-              	<p> 
-      			Not a member yet ?
-      			<a href="#toregister" class="to_register">Join us</a>
-      		</p>
+                 	<input data-theme="a" type="submit" value="确定" /> 
+			</div>
           </form>
       </div>
    </body>

@@ -40,16 +40,19 @@
 		  padding-right: .25em;  
 		}
 	</style>
-	
 	<link rel="stylesheet" href="/athome/Public/css/jquery.mobile-1.4.5.min.css" />  
 	<script src="/athome/Public/js/jquery-1.11.3.min.js"></script>  
 	<script src="/athome/Public/js/jquery.mobile-1.4.5.min.js"></script>  
+	<!--
 	<script src="/athome/Public/js/jquery.validate.min.js"></script>  
 	<script src="/athome/Public/js/messages_zh.min.js"></script>  
-
+	-->
 	<script type="text/javascript">
         	$(function(){
-        	    $("#loginForm").validate();
+        	//     $("#loginForm").validate({
+        	//     	ajaxFormValidation: true,
+        	//     	onAjaxFormComplete : complete,
+        	//     });
 
         	//     function complete(data){
         	//     	alert(data);
@@ -59,7 +62,7 @@
  </head>
     <body>
       <div id="login">
-       <form  id ="loginForm" action="/athome/index.php/Home/User/signin" autocomplete="on" method="post" data-ajax="false">
+       <form  id ="loginForm" action="/athome/index.php/Home/User/signin" autocomplete="on" method="post">
 		<div data-role="header">
               		<h1>Log in</h1> 
 	      	</div>
