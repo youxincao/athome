@@ -114,6 +114,7 @@ class UserController extends Controller {
     public function login() {
         $code = I('code');
         $state = I('state');
+	$bound  = false ;
 
         if($state == 'weixin' && $code != '' ){
             // 拉取微信用户的openid
@@ -125,17 +126,18 @@ class UserController extends Controller {
                 session('openid', $access_token['openid']);
 
                 // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
-                $res = M('bind_openid_us')->where(array('openid' => $access_token['openid']))->select();
-                if( res ){
-                    session('device_sn', $res['devicesn']);
-                    $this->assign('device_sn',$res['devicensn']);
-                    this->display("bound_device");
+                $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
+                if( $res ){
+		    $bound = true ;
+                    session('device_sn', $res[0]['device_sn']);
+                    $this->success("Already Bound Device", U('Main/bound_device'), 1);
+		    return ;
                 }
             }
         }
 
-
-    	$this->display();
+    	if(!$bound) 
+		$this->display();
     }
 
     public function signup(){
@@ -179,9 +181,5 @@ class UserController extends Controller {
     	$this->success('登录成功', U('Main/admin'), 1);
     }
 
-    public function bound_device(){
-        p($_SESSION);
-    }
 }
-
 ?>

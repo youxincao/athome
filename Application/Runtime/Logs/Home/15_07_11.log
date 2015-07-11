@@ -1182,3 +1182,1738 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001751s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
 
+[ 2015-07-11T17:06:02+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0310664acf3fa3e9f2652edb13f2ef90&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2015-07-11T17:06:20+08:00 ] 114.242.249.53 /athome/index.php/Home/User/signin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `db_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+
+[ 2015-07-11T17:06:29+08:00 ] 114.242.249.53 /athome/index.php/Home/User/signin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `db_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2015-07-11T17:06:31+08:00 ] 114.242.249.53 /athome/index.php/Home/Main/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+
+[ 2015-07-11T17:09:27+08:00 ] 114.242.249.53 /athome/index.php/Home/Main/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2015-07-11T17:09:50+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0319b84dd2b14606db6eb14f5ebdc4bU&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2015-07-11T17:10:07+08:00 ] 114.242.249.53 /athome/index.php/Home/User/signin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `db_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000178s ]
+
+[ 2015-07-11T17:10:08+08:00 ] 114.242.249.53 /athome/index.php/Home/Main/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-07-11T17:10:41+08:00 ] 114.242.249.53 /athome/index.php/Home/Main/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+
+[ 2015-07-11T17:10:58+08:00 ] 114.242.249.53 /athome/index.php/Home/Main/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2015-07-11T17:13:34+08:00 ] 114.242.249.53 /athome/index.php/Home/Main/bind_device
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `db_device` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `db_device` WHERE `sn` = '111111'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0014s ]
+SQL: INSERT INTO `db_bind_openid_sn` (`openid`,`device_sn`,`bind_time`) VALUES ('oDeMHs5pjblv9w2nBsyZjZOY1jik','111111','1436606013') [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `db_bind_user_sn` [ RunTime:0.0022s ]
+SQL: INSERT INTO `db_bind_user_sn` (`username`,`device_sn`,`bind_time`) VALUES ('admin','111111','1436606013') [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2015-07-11T17:13:35+08:00 ] 114.242.249.53 /athome/index.php/Home/Main/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2015-07-11T17:14:13+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?source=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2015-07-11T17:33:30+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=001b09368cb39f291146cc799e43e6bn&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000218s ]
+
+[ 2015-07-11T17:34:57+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=041fd662db98bd8c9ae91a09a8a3ee3K&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2015-07-11T17:36:21+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=001b02878a3f6e08483d90720cc0039R&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+
+[ 2015-07-11T17:37:53+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=031fa797761b3c21ca1941f7c884761b&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'athome.db_bind_openid_us' doesn't exist
+
+[ 2015-07-11T17:38:20+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0212f6177f18a284449c3a701e176f8E&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'athome.db_bind_openid_us' doesn't exist
+
+[ 2015-07-11T17:39:10+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=01150a34eee3904e49da68d40d288d8H&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 129 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 131 行.
+ERR: 模板不存在:./Application/Home/View/User/bound_device.html
+
+[ 2015-07-11T17:39:46+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0215707ac08bc41f2ac67c3b496e6dey&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 129 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 131 行.
+ERR: 模板不存在:./Application/Home/View/User/bound_device.html
+
+[ 2015-07-11T17:40:02+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=001a6755f8cd2928f514cf54282300bY&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 129 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 131 行.
+ERR: 模板不存在:./Application/Home/View/User/bound_device.html
+
+[ 2015-07-11T17:40:46+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0317296c2d494608f627557a48a3eecc&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 129 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 131 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006207s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2015-07-11T17:41:15+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0019104c2d0c3f5777d6a432ab23f91y&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 129 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 131 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003759s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2015-07-11T17:43:19+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=031c6038dc61e2c72c6c6af5072572b5&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2015-07-11T17:44:29+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=011aef772ef84a7e97af6a9b9409f75t&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-07-11T17:52:06+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0016738b48330468784b349881ef77dN&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000181s ]
+
+[ 2015-07-11T17:53:54+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=041b06a49106f8135ea74ca4edafec4B&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2015-07-11T17:55:14+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0415980355a6563745e4193c5d80cc8O&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: device_sn /home/wwwroot/default/athome/Application/Runtime/Cache/Home/a6f57fc1910c81d6873dee25cf1c6e48.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2015-07-11T17:56:05+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0416c9757d9a4319f1fe0e54edb65e7S&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: device_sn /home/wwwroot/default/athome/Application/Runtime/Cache/Home/a6f57fc1910c81d6873dee25cf1c6e48.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2015-07-11T17:56:21+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=011e60c3744a4f6decb2bd0139fab7aq&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: device_sn /home/wwwroot/default/athome/Application/Runtime/Cache/Home/a6f57fc1910c81d6873dee25cf1c6e48.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2015-07-11T17:58:04+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=041299219888b7303b582fc543f23c4f&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: device_sn /home/wwwroot/default/athome/Application/Runtime/Cache/Home/a6f57fc1910c81d6873dee25cf1c6e48.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2015-07-11T17:59:00+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=011e5a88b758c91988d35a3e4d132a0D&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: device_sn /home/wwwroot/default/athome/Application/Runtime/Cache/Home/a6f57fc1910c81d6873dee25cf1c6e48.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2015-07-11T18:00:19+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0019c91fbc6c5f3fbf9a40af21bb7abX&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-07-11T18:02:26+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=031da89490044808135415eefc97452-&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000188s ]
+
+[ 2015-07-11T18:02:27+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-07-11T18:07:16+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0215ceda048f5fc98f46d3c3c699e10n&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-07-11T18:07:17+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2015-07-11T18:08:21+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=011d6470546ac645669ff913c8efeb7r&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2015-07-11T18:08:23+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-07-11T18:09:17+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-07-11T18:09:21+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=041b74ff7ca72751528e119164a9e68M&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-07-11T18:09:22+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2015-07-11T18:09:38+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=011e2b50efae479fcf28b6bb6dccbb3R&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2015-07-11T18:09:39+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2015-07-11T18:10:24+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=0314c921e8b451670a5861f6a6b32f1b&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000179s ]
+
+[ 2015-07-11T18:10:25+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2015-07-11T18:11:01+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=02137ee63267c213160a61ebe844b67z&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2015-07-11T18:11:02+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: devicen_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2015-07-11T18:11:36+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=001555029ffac3ffdc72204774fe02cz&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant res - assumed 'res' /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 130 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2015-07-11T18:11:38+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 186 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2015-07-11T18:13:16+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=021228338c72c59c960870d673c09324&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2015-07-11T18:13:17+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2015-07-11T18:13:24+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2015-07-11T18:13:58+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-07-11T18:14:00+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-07-11T18:14:03+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-07-11T18:17:31+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=011218f2ec5530d9f94a4c7b02fe878p&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 134 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2015-07-11T18:17:32+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 188 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2015-07-11T18:17:46+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 188 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2015-07-11T18:18:33+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 188 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2015-07-11T18:20:29+08:00 ] 101.226.66.175 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 188 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2015-07-11T18:25:00+08:00 ] 114.242.249.53 /athome/index.php/Home/User/login?code=001b5fdfe4e767175528fd185c256beA&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: device_sn /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 132 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2015-07-11T18:25:02+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-07-11T19:37:55+08:00 ] 114.242.249.53 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2015-07-11T19:42:01+08:00 ] 111.202.1.57 /athome/index.php/Home/User/login?source=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000180s ]
+
+[ 2015-07-11T19:42:54+08:00 ] 111.202.1.57 /athome/index.php/Home/User/login?code=0416ec17729477f449a625195625728m&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2015-07-11T19:42:55+08:00 ] 111.202.1.57 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2015-07-11T19:42:58+08:00 ] 111.202.1.57 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2015-07-11T19:43:10+08:00 ] 111.202.1.57 /athome/index.php/Home/User/login?code=04175bb77b0f6dbffe7094a52c319a75&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-07-11T19:43:12+08:00 ] 111.202.1.57 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-07-11T19:48:05+08:00 ] 111.202.1.57 /athome/index.php/Home/User/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+ERR: 非法操作:bound_device
+
+[ 2015-07-11T19:48:06+08:00 ] 111.202.1.57 /athome/index.php/Home/User/login?code=001af86f57c2eae8d4326525d7a8f1ez&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2015-07-11T19:48:07+08:00 ] 111.202.1.57 /athome/index.php/Home/Main/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-07-11T19:57:19+08:00 ] 111.202.1.57 /athome/index.php/Home/Main/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2015-07-11T19:57:21+08:00 ] 111.202.1.57 /athome/index.php/Home/User/login?code=0412f7f876e53ecb3623a83cf84742cT&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php on line 39 and defined /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-07-11T19:57:22+08:00 ] 111.202.1.57 /athome/index.php/Home/Main/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-07-11T19:57:28+08:00 ] 111.202.1.57 /athome/index.php/Home/Main/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2015-07-11T19:58:25+08:00 ] 111.202.1.57 /athome/index.php/Home/User/gps_info?code=00190b22a3a009ad196e954023e1c16F&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+ERR: 非法操作:gps_info
+
+[ 2015-07-11T19:59:33+08:00 ] 111.202.1.57 /athome/index.php/Home/User/gps_info?code=0319b778d4d2242fe6bd6b411c2cdd13&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+ERR: 非法操作:gps_info
+
+[ 2015-07-11T20:01:29+08:00 ] 111.202.1.57 /athome/index.php/Home/User/gps_info?code=001a17f8d10b92a625903a52289cc4cW&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+ERR: 非法操作:gps_info
+
+[ 2015-07-11T20:01:55+08:00 ] 111.202.1.57 /athome/index.php/Home/Main/gps_info?code=04153ad04284ca8c800900faf8c84f0h&state=weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\Wechat::http(), called in /home/wwwroot/default/athome/Application/Home/Controller/MainController.class.php on line 38 and defined /home/wwwroot/default/athome/Application/Home/Controller/MainController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: method /home/wwwroot/default/athome/Application/Home/Controller/MainController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `db_bind_openid_sn` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `db_bind_openid_sn` WHERE `openid` = 'oDeMHs5pjblv9w2nBsyZjZOY1jik'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2015-07-11T20:01:57+08:00 ] 111.202.1.57 /athome/index.php/Home/Main/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000226s ]
+
+[ 2015-07-11T20:02:01+08:00 ] 111.202.1.57 /athome/index.php/Home/Main/bound_device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2015-07-11T20:02:52+08:00 ] 101.226.93.234 /athome/index.php/Home/User/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+ERR: 非法操作:gps_info
+
+[ 2015-07-11T20:07:07+08:00 ] 101.226.66.175 /athome/index.php/Home/Main/gps_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: uid /home/wwwroot/default/athome/Application/Home/Controller/BaseController.class.php 第 9 行.
+
+[ 2015-07-11T20:07:07+08:00 ] 101.226.66.175 /athome/index.php/home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+ERR: 无法加载控制器:Login
+
