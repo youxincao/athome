@@ -123,8 +123,17 @@ class UserController extends Controller {
                 session('access_token', $access_token['access_token']);
                 session('refresh_token', $access_token['refresh_token']);
                 session('openid', $access_token['openid']);
+
+                // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
+                $res = M('bind_openid_us')->where(array('openid' => $access_token['openid']))->select();
+                if( res ){
+                    session('device_sn', $res['devicesn']);
+                    $this->assign('device_sn',$res['devicensn']);
+                    this->display("bound_device");
+                }
             }
         }
+
 
     	$this->display();
     }
@@ -168,6 +177,10 @@ class UserController extends Controller {
     	session('loginip' , get_client_ip());
 
     	$this->success('登录成功', U('Main/admin'), 1);
+    }
+
+    public function bound_device(){
+        p($_SESSION);
     }
 }
 
