@@ -17,28 +17,28 @@ class MainController extends BaseController {
 			$bind_time = time();
 
 			if( null !=  $_SESSION['openid']  ){
-				$openiddata = array({
+				$openiddata = array(
 					'openid' => $_SESSION['openid'],
 					'device_sn' => $device_sn,
 					'bind_time' => $bind_time,
-				});
+				);
 
 				if( !M('bind_openid_sn')->add($openiddata) ){
-					this->error("绑定设备到微信失败");
-					return；
+					$this->error("绑定设备到微信失败");
+					return;
 				}
 			}
 
 			if( null != $_SESSION['username'] ) {
-				$username_data = array({
+				$username_data = array(
 					'username' => $_SESSION['username'],
 					'device_sn' => $device_sn,
 					'bind_time' => $bind_time, 
-				});
+				);
 
 				if( !M('bind_user_sn')->add($username_data) ){
-					this->error("绑定设备到用户失败");
-					return；
+					$this->error("绑定设备到用户失败");
+					return;
 				}
 			}
 			$this->success("绑定设备成功");
