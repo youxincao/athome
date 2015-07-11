@@ -114,15 +114,15 @@ class UserController extends Controller {
     public function login() {
         $code = I('code');
         $state = I('state');
-        p(I('get.'));
 
         if($state == 'weixin' && $code != '' ){
             // 拉取微信用户的openid
-            p(I('get.'));
             $wechat = new Wechat();
             $access_token = $wechat->get_access_token($code);
             if( !$access_token ) {
-                
+                session('access_token', $access_token['access_token']);
+                session('refresh_token', $access_token['refresh_token'])
+                session('openid', $access_token['openid']);
             }
         }
 
