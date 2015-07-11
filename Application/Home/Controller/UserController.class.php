@@ -33,7 +33,7 @@ class Wechat {
      * 
      * @param string $code 通过get_authorize_url获取到的code
      */
-    public function get_access_token($code = '')
+    public function get_open_id($code = '')
     {
         $token_url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={$this->app_id}&secret={$this->app_secret}&code={$code}&grant_type=authorization_code";
         $token_data = $this->http($token_url);
@@ -44,6 +44,20 @@ class Wechat {
         }
         
         return FALSE;
+    }
+    
+
+    public function get_access_token(){
+	$token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$this->app_id}&secret={$this->app_secret}";
+        $token_data = $this->http($token_url);
+        
+        if($token_data[0] == 200)
+        {
+            return json_decode($token_data[1], TRUE);
+        }
+        
+        return FALSE;
+
     }
     
     /**
@@ -119,12 +133,20 @@ class UserController extends Controller {
         if($state == 'weixin' && $code != '' ){
             // 拉取微信用户的openid
             $wechat = new Wechat();
-            $access_token = $wechat->get_access_token($code);
+            $access_token = $wechat->get_open_id($code);
             if( $access_token ) {
                 session('access_token', $access_token['access_token']);
                 session('refresh_token', $access_token['refresh_token']);
                 session('openid', $access_token['openid']);
 
+		// save the accesstoken to db
+		$token = $wechat->get_access_token();
+		if( $token ){
+			$data['access_token'] = $token['access_token'];
+			$data['time'] = time();			
+			M('accesstoken')->add($data);
+		}
+		
                 // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
                 $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
                 if( $res ){

@@ -32,7 +32,7 @@ class Wechat {
      * 
      * @param string $code 通过get_authorize_url获取到的code
      */
-    public function get_access_token($code = '')
+    public function get_open_id($code = '')
     {
         $token_url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={$this->app_id}&secret={$this->app_secret}&code={$code}&grant_type=authorization_code";
         $token_data = $this->http($token_url);
@@ -45,6 +45,18 @@ class Wechat {
         return FALSE;
     }
     
+    public function get_access_token(){
+	$token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$this->app_id}&secret={$this->app_secret}";
+        $token_data = $this->http($token_url);
+        
+        if($token_data[0] == 200)
+        {
+            return json_decode($token_data[1], TRUE);
+        }
+        
+        return FALSE;
+    }
+
     /**
      * 获取授权后的微信用户信息
      * 
@@ -168,12 +180,20 @@ class MainController extends BaseController {
 	        if($state == 'weixin' && $code != '' ){
 	            // 拉取微信用户的openid
 	            $wechat = new Wechat();
-	            $access_token = $wechat->get_access_token($code);
+	            $access_token = $wechat->get_open_id($code);
 	            if( $access_token ) {
 	                session('access_token', $access_token['access_token']);
 	                session('refresh_token', $access_token['refresh_token']);
 	                session('openid', $access_token['openid']);
 
+			// save the accesstoken to db
+			$token = $wechat->get_access_token();
+			if( $token ){
+				$data['access_token'] = $token['access_token'];
+				$data['time'] = time();			
+				M('accesstoken')->add($data);
+			}
+		
 	                // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
 	                $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
 	                if( $res ){
@@ -198,11 +218,19 @@ class MainController extends BaseController {
         if($state == 'weixin' && $code != '' ){
             // 拉取微信用户的openid
             $wechat = new Wechat();
-            $access_token = $wechat->get_access_token($code);
+            $access_token = $wechat->get_open_id($code);
             if( $access_token ) {
                 session('access_token', $access_token['access_token']);
                 session('refresh_token', $access_token['refresh_token']);
                 session('openid', $access_token['openid']);
+		// save the accesstoken to db
+		$token = $wechat->get_access_token();
+		if( $token ){
+			$data['access_token'] = $token['access_token'];
+			$data['time'] = time();			
+			M('accesstoken')->add($data);
+		}
+		
 
                 // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
                 $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
@@ -221,19 +249,27 @@ class MainController extends BaseController {
 	}	
 
 	public function list_alarm_info(){
-        $device_sn = $_SESSION('device_sn');
-        $records = M('alarmrecord')->where(array("sn" => $device_sn))->select();
-        if( $records ){
-            $this->assign("共有".count($records)."条报警信息");
-            $this->assign("alarm_infos", $records);
-        }else{
-            $this->assign("绑定的设备没有报警信息");
-        }
-		this->display();
+        	$device_sn = $_SESSION['device_sn'];
+       	 	$records = M('alarmrecord')->where(array("sn" => $device_sn))->select();
+       		if( $records ){
+           	 	$this->assign('info', "共有".count($records)."条报警信息");
+           	 	$this->assign("alarm_infos", $records);
+        	}else{
+            		$this->assign('info', "绑定的设备没有报警信息");
+       		}
+		$this->display();
 	}
 
 	public function list_gps_info(){
-        $device_sn = $_SESSION('device_sn');
+        	$device_sn = $_SESSION['device_sn'];
+		$records = M('location')->where(array("sn" => $device_sn))->select();
+       		if( $records ){
+           	 	$this->assign('info', "共有".count($records)."条报警信息");
+           	 	$this->assign("gps_infos", $records);
+        	}else{
+            		$this->assign('info', "绑定的设备没有报警信息");
+       		}
+
 		$this->display();
 	}
 
