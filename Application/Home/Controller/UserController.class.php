@@ -119,9 +119,9 @@ class UserController extends Controller {
             // 拉取微信用户的openid
             $wechat = new Wechat();
             $access_token = $wechat->get_access_token($code);
-            if( !$access_token ) {
+            if( $access_token ) {
                 session('access_token', $access_token['access_token']);
-                session('refresh_token', $access_token['refresh_token'])
+                session('refresh_token', $access_token['refresh_token']);
                 session('openid', $access_token['openid']);
             }
         }
