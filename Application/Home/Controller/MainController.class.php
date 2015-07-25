@@ -67,7 +67,7 @@ class MainController extends BaseController
 
         if ($state == 'weixin' && $code != '') {
             // 拉取微信用户的openid
-            import(Org . Uiti . Wechat);
+            import("Org.Util.Wechat");
             $wechat = new \Wechat();
 
             $access_token = $wechat->get_open_id($code);
