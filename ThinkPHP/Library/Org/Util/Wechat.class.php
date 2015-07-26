@@ -5,9 +5,7 @@
  * Date: 2015/7/25
  * Time: 20:44
  */
-
 namespace Org\Util;
-
 
 /**
  * 微信授权相关接口
@@ -15,7 +13,8 @@ namespace Org\Util;
  * @link http://www.phpddt.com
  */
 
-class Wechat {
+class Wechat
+{
 
     //高级功能-》开发者模式-》获取
     private $app_id = 'wx68c8c38c45de276d';
@@ -44,20 +43,19 @@ class Wechat {
         $token_url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={$this->app_id}&secret={$this->app_secret}&code={$code}&grant_type=authorization_code";
         $token_data = $this->http($token_url);
 
-        if($token_data[0] == 200)
-        {
+        if ($token_data[0] == 200) {
             return json_decode($token_data[1], TRUE);
         }
 
         return FALSE;
     }
 
-    public function get_access_token(){
+    public function get_access_token()
+    {
         $token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$this->app_id}&secret={$this->app_secret}";
         $token_data = $this->http($token_url);
 
-        if($token_data[0] == 200)
-        {
+        if ($token_data[0] == 200) {
             return json_decode($token_data[1], TRUE);
         }
 
@@ -72,13 +70,11 @@ class Wechat {
      */
     public function get_user_info($access_token = '', $open_id = '')
     {
-        if($access_token && $open_id)
-        {
+        if ($access_token && $open_id) {
             $info_url = "https://api.weixin.qq.com/sns/userinfo?access_token={$access_token}&openid={$open_id}&lang=zh_CN";
             $info_data = $this->http($info_url);
 
-            if($info_data[0] == 200)
-            {
+            if ($info_data[0] == 200) {
                 return json_decode($info_data[1], TRUE);
             }
         }

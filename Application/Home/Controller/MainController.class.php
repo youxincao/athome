@@ -7,6 +7,45 @@ use Think\Controller;
 class MainController extends BaseController
 {
 
+    // 处理微信登录相关的事情，比如获取用户的openid,更新access_token等
+    private function weixin_callback($code = '')
+    {
+
+        if ($code != '') {
+            // 拉取微信用户的openid
+            $wechat = new \Org\Util\Wechat();
+
+            $access_token = $wechat->get_open_id($code);
+            $access_token = "123";
+            if ($access_token) {
+                session('access_token', $access_token['access_token']);
+                session('refresh_token', $access_token['refresh_token']);
+                session('openid', $access_token['openid']);
+
+                // 查看access_token是否过期
+                $access = M('accesstoken')->max('time');
+                p($access);
+                $access_int = intval($access);
+                $cur_time = time();
+
+                if ($access != null && $access_int + 1800 < $cur_time) {
+                    $token = $wechat->get_access_token();
+                    if ($token) {
+                        $data['access_token'] = $token['access_token'];
+                        $data['time'] = time();
+                        M('accesstoken')->add($data);
+                    }
+                }
+
+                // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
+                $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
+                if ($res) {
+                    session('device_sn', $res[0]['device_sn']);
+                }
+            }
+        }
+    }
+
     public function admin()
     {
         $this->display();
@@ -65,34 +104,8 @@ class MainController extends BaseController
         $state = I('state');
         $bound = false;
 
-        if ($state == 'weixin' && $code != '') {
-            // 拉取微信用户的openid
-            import("Org.Util.Wechat");
-            $wechat = new \Wechat();
-
-            $access_token = $wechat->get_open_id($code);
-            if ($access_token) {
-                session('access_token', $access_token['access_token']);
-                session('refresh_token', $access_token['refresh_token']);
-                session('openid', $access_token['openid']);
-
-                // save the accesstoken to db
-                $token = $wechat->get_access_token();
-                if ($token) {
-                    $data['access_token'] = $token['access_token'];
-                    $data['time'] = time();
-                    M('accesstoken')->add($data);
-                }
-
-                // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
-                $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
-                if ($res) {
-                    $bound = true;
-                    session('device_sn', $res[0]['device_sn']);
-                    $this->success("Already Bound Device", U('Main/list_gps_info'), 1);
-                    return;
-                }
-            }
+        if ($state == 'weixin') {
+            $this->weixin_callback($code);
         }
 
         if (!$bound)
@@ -167,9 +180,12 @@ class MainController extends BaseController
         $this->display();
     }
 
-    public function add_device(){
+    public function add_device()
+    {
         $this->display();
     }
+
+
 }
 
 	
