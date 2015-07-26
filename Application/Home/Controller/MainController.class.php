@@ -136,11 +136,9 @@ class MainController extends BaseController
                     M('accesstoken')->add($data);
                 }
 
-
                 // 查看是否已经绑定设备，如果已经绑定显示已经绑定的设备
                 $res = M('bind_openid_sn')->where(array('openid' => $access_token['openid']))->select();
                 if ($res) {
-                    $bound = true;
                     session('device_sn', $res[0]['device_sn']);
                     $this->success("Already Bound Device", U('Main/list_alarm_info'), 1);
                     return;
